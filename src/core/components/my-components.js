@@ -26,7 +26,12 @@ document.addEventListener('gameStart',e=>{
   
   CS1.scene.appendChild(fancySphere("10.75 5.6 -23.52","Sun_Shader"));
   CS1.scene.appendChild(fancySphere("10.75 5.6 -23.52","Electric_Shader",0.65));
-
+    
+  CS1.scene.appendChild(fancySphere("5.875 5.35 -9.536","Sun_Shader",0.246));
+  CS1.scene.appendChild(fancySphere("5.875 5.35 -9.536","Electric_Shader",0.4));
+  
+  CS1.scene.appendChild(fancySphere("8.361 5.562 -9.3","Ova_Shader",0.5));
+  CS1.scene.appendChild(fancySphere("3.368 5.562 -9.3","Ova_Shader",0.5));
      
 });   
 
