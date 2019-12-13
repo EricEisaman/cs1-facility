@@ -1,10 +1,10 @@
 export default(()=>{
   
-function thruster(offset) {
+function fancySphere(offset='0 0 0',shaderName='Thruster_Shader',radius=0.4) {
     const t = document.createElement("a-sphere");
-    t.setAttribute("radius", "0.4");
+    t.setAttribute("radius", radius);
     t.setAttribute("position", offset);
-    t.setAttribute("shader-frog", "name:Thruster_Shader");
+    t.setAttribute("shader-frog", `name:${shaderName}`);
     return t;
   }
   
@@ -14,18 +14,21 @@ document.addEventListener('gameStart',e=>{
   CS1.shaderfrog.Thruster_Shader.uniforms.backgroundColor.value.g = "0.1";
   CS1.shaderfrog.Thruster_Shader.uniforms.backgroundColor.value.b = "0.2";
   
-  CS1.scene.appendChild(thruster("-20.75 2.52 -21.4"));
-  CS1.scene.appendChild(thruster("-16.9 2.52 -21.4"));
-  CS1.scene.appendChild(thruster("-9.21 2.52 -21.4"));
-  CS1.scene.appendChild(thruster("-5.54 2.52 -21.4"));
+  CS1.scene.appendChild(fancySphere("-20.75 2.52 -21.4"));
+  CS1.scene.appendChild(fancySphere("-16.9 2.52 -21.4"));
+  CS1.scene.appendChild(fancySphere("-9.21 2.52 -21.4"));
+  CS1.scene.appendChild(fancySphere("-5.54 2.52 -21.4"));
   
-  CS1.scene.appendChild(thruster("-20.75 2.52 -14.36"));
-  CS1.scene.appendChild(thruster("-16.9 2.52 -14.36"));
-  CS1.scene.appendChild(thruster("-9.21 2.52 -14.36"));
-  CS1.scene.appendChild(thruster("-5.54 2.52 -14.36"));
+  CS1.scene.appendChild(fancySphere("-20.75 2.52 -14.36"));
+  CS1.scene.appendChild(fancySphere("-16.9 2.52 -14.36"));
+  CS1.scene.appendChild(fancySphere("-9.21 2.52 -14.36"));
+  CS1.scene.appendChild(fancySphere("-5.54 2.52 -14.36"));
+  
+  CS1.scene.appendChild(fancySphere("10.75 5.6 -23.52","Sun_Shader"));
+  CS1.scene.appendChild(fancySphere("10.75 5.6 -23.52","Electric_Shader",0.65));
 
      
-});  
+});   
 
 AFRAME.registerComponent('mycomponent', {
   schema: {

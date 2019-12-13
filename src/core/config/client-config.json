@@ -1,6 +1,6 @@
 {
   "gameName": "CS1 Facility",
-  "welcomeMsg": "Welcome to the Level 5 Zone 1 Facility. Our corporate mission is to maintain vital systems for the Level 5 community.  Feel free to explore our complex and direct any questions or concerns to the level two duty officer.",
+  "welcomeMsg": "Welcome to the Level 5 Zone 1 Facility where our mission is to maintain vital systems for the Level 5 community. Please direct any questions or concerns to the level two duty officer.",
   "playerLeftMsg": "... has packed up and headed for home.",
   "theme": {
     "fontFamily": "Arial",
