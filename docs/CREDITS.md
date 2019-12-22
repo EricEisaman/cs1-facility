@@ -8,6 +8,8 @@ Thanks to **Quaternius** for the [nature assets](https://www.patreon.com/posts/f
 
 Thanks to **HanSolo Cambo** for the [Level 5 Zone 1 Map](https://sketchfab.com/3d-models/level5-zone1-level-design-2002-7842d43173c54ec18da10246cdc6da71)!
 
+Thanks to **Leonardo Carvalho** for the [Megaman NT Model](https://sketchfab.com/3d-models/megaman-nt-f2c4851bd44a489da25c893f6ba8dc7a)!
+
 
 ____
 
