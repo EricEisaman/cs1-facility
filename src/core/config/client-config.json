@@ -52,7 +52,7 @@
         "thumbnail": "https://cdn.glitch.com/ce482413-980c-4cbc-8ce2-704d359c1a08%2FMeg_thumb.png?v=1577028001433",
         "name": "Meg",
         "scale": 0.75,
-        "yOffset": 0.0,
+        "yOffset": 0.1,
         "animations": {
           "idle": "idle",
           "walk": "walk"
