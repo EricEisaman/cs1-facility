@@ -47,21 +47,19 @@
         }
       },
       {
-        "type": 2,
-        "url": "https://cdn.glitch.com/984a335f-9425-469e-8978-85c88c06d624%2Fboz_head.glb?v=1566741683664",
-        "lefthand": "https://cdn.glitch.com/984a335f-9425-469e-8978-85c88c06d624%2Fboz_lefthand.glb?v=1566749593952",
-        "righthand": "https://cdn.glitch.com/984a335f-9425-469e-8978-85c88c06d624%2Fboz_righthand.glb?v=1566749593705",
-        "thumbnail": "https://cdn.glitch.com/fec96da0-7526-4b9a-aecf-3abbbe7fcdc5%2Fvr.png?v=1567383953311",
-        "name": "VR-1",
-        "scale": 1,
-        "yOffset": 0,
+        "type": 1,
+        "url": "https://cdn.glitch.com/ce482413-980c-4cbc-8ce2-704d359c1a08%2FMegamanNT_walk_idle.glb?v=1577028347640",
+        "thumbnail": "https://cdn.glitch.com/ce482413-980c-4cbc-8ce2-704d359c1a08%2FMeg_thumb.png?v=1577028001433",
+        "name": "Meg",
+        "scale": 0.75,
+        "yOffset": 0.0,
         "animations": {
           "idle": "idle",
           "walk": "walk"
         },
         "msg": {
           "color": "orange",
-          "offset": "0 1.75 0"
+          "offset": "0 4 0"
         }
       }
     ]
