@@ -159,7 +159,7 @@ export default(()=>{
             }
             else
               CS1.myPlayer.components.player.setSpeed(d/4000);
-            if(Math.random()<0.05){
+            if(Math.random()<0.3){
               this.el.dispatchEvent(this.barrierBurnEvent);
               this.el.components.sound__shock.playSound();
               this.numShocks++;
