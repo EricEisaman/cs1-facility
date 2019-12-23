@@ -79,7 +79,7 @@
     }
   },
   "bgm": {
-    "songs": [654668162],
+    "songs": [],
     "volume": 0.2,
     "playAll": true,
     "initialDelay": 5000

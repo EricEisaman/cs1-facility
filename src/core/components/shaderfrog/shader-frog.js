@@ -29,6 +29,8 @@ import Electric_Shader from './shaders/Electric_Shader.json';
 shaders['Electric_Shader']=Electric_Shader;
 import CS1_Shader from './shaders/CS1_Shader.json';
 shaders['CS1_Shader']=CS1_Shader;
+import Force_Field_Shader from './shaders/Force_Field_Shader.json';
+shaders['Force_Field_Shader']=Force_Field_Shader;
 
 export default CS1=>{
   
